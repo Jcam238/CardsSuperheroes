@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 1px solid red; */
+}
+
+.descuentos{
+    background-color: #D1891C;
+    height: 4vh;
+}
+
+header div p{
+    text-align: left;
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 50px;
+}
+
+.bannertop{
+    background-color: #00669F;
+    height: 15vh;
+    width: 100%;
+}
+
+.bannertop h1{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 50px;
+    position: relative;
+    top: 30px;
+}
+
+/* ----------- */
+
+main{
+    height: 250vh;
+    width: 100%;
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    position: relative;
+}
+
+.card .img{
+    background-color: #F3F3F3;
+    width: 30%;
+    height: 45%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border-radius: 25px 25px 0px 0px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+
+.card .img .top{
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+.card .img .round{
+    max-width: 150px;
+    max-height: 150px;
+    position: relative;
+    bottom: 80px
+}
+
+.card .img h2{
+    font-weight: 400;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 50px;
+}
+
+.card .img p{
+    font-size: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.card .img a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00669F;
+    padding: 15px 55px 15px 55px;
+    border-radius: 8px;
+}
+
+.card .img .like{
+    position: relative;
+    align-self: flex-start;
+    bottom: 740px;
+    left: 40px;
+}
+
+
+footer{
+    background-color: #00669F;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    margin-left: 165px;
+}
+
+footer img{
+    max-height: 45px;
+    position: relative;
+    left: 420px
+}
